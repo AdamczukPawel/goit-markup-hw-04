@@ -102,17 +102,11 @@ header {
     display: flex;
     list-style: none;
 }
-
 .navigation {
     display: flex;
     list-style: none;
     align-items: center;
 }
-
-.logo {
-    
-}
-
 .contact {
     display: block;
 }
@@ -129,10 +123,12 @@ header {
     margin: 0 auto;
 }
 .advert {
-    background-color: #2F303A;
     display: block;
     height: 600px;
     justify-content: center;
+    background-image: url(/images/background1.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
 }
 .advert.container  {
     padding-top: 200px;
