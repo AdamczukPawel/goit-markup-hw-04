@@ -1,0 +1,368 @@
+body {
+    font-family: 'Roboto', 'Raleway', sans-serif;
+    color: #212121;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+}
+*,
+*::after
+*::before {
+    margin: 0;
+    padding: 0;
+}
+ul,
+ol {
+    padding: 0;
+    list-style: none;
+}
+img {
+    display: block;
+}
+.container {
+    width: 1200px;
+    margin: 0px auto;
+}
+header,
+section,
+footer {
+    font-family: 'Roboto', ' Raleway', sans-serif;
+}
+/* HEADER */
+.header {
+    height: 80px;
+}
+.header {
+    border-bottom: 1px solid #ECECEC;;
+}
+.contact .link {
+    display: inline;
+}
+
+.container .container-item1 {
+    display: flex;
+    margin-left: auto;
+}
+.navigation-item:not(:last-child) {
+    margin-right: 46px;
+}
+.mail {
+    margin-right: 50px;
+}
+.tel {
+    margin-right: auto;
+}
+.header .container {
+    display: flex;
+    align-items: center;
+}
+.navigation,
+.contact {
+    display: flex;
+    justify-content: center;
+}
+.logo {
+    font-family: 'Raleway';
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 26px;
+    color: #212121;
+    margin-right: 93px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+.link {
+    color: #212121;
+    text-decoration: none;
+}
+.logo>span {
+    color: #2196F3;
+}
+header {
+    font-weight: 500;
+    font-size: 14px;
+}
+.link:hover,
+.link:focus {
+    color: #2196F3;
+}
+.contact>a {
+    color: #757575;
+    text-decoration: none;
+    display: block;
+}
+.contact>a:hover,
+.contact>a:focus {
+    color: #2196F3;
+    cursor: pointer;
+}
+.header {
+    display: flex;
+    list-style: none;
+}
+
+.navigation {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.logo {
+    
+}
+
+.contact {
+    display: block;
+}
+   /* ADVERT */
+.container > .title {
+    font-family: Roboto;
+    color: #FFFFFF;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    letter-spacing: 0.06em;
+    width: 696px;
+    text-align: center;
+    margin: 0 auto;
+}
+.advert {
+    background-color: #2F303A;
+    display: block;
+    height: 600px;
+    justify-content: center;
+}
+.advert.container  {
+    padding-top: 200px;
+}
+.advert .container .advert-item{
+    display: flex;
+}
+.advert .advert-item{
+    display: inline-block;    
+    align-items: center;
+    justify-content: center;
+}
+.container .title {
+    padding-top: 200px;
+    padding-bottom: 30px;
+}
+.container .button1 {
+    border-radius: 4px;
+    padding: 10px auto;
+    align-items: center;
+}
+.button1 {
+    font-family: Roboto;
+    color: #FFFFFF;
+    background-color: #2196F3;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.875;
+    text-align: center;
+    width: 200px;
+    height: 50px;
+    margin: 0 auto;
+}
+.button1:hover,
+.button1:focus {
+    cursor: pointer;
+}
+/* MAIN SECTION */
+.text1 {
+    color: #757575;
+}
+.text1>.text1-title {
+    font-weight: 700;
+    color: #212121;
+    margin-bottom: 10px;
+}
+.container .list1 {
+    display: flex;
+    justify-content: space-between;
+    margin: 94px auto;
+}
+.container .list1 {
+    padding: 0;
+}
+.container .text1:not(:last-child) {
+    margin-right: 30px;
+}
+
+/* WHAT ARE WE DOING */
+h2 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+}
+.container .list2 {
+    padding: 0;
+}
+.list2 .box1 {
+    margin: 0;
+}
+
+.container .list2 {
+    display: flex;
+    align-content: space-between;
+}
+.box1:not(:last-child) {
+    padding-right: 30px;
+}
+.title2 {
+    margin-bottom: 50px;
+}
+/* TEAM */
+.team .container {
+    margin-top: 94px;
+    padding: 94px 0;
+}
+.team-title {
+    margin-bottom: 50px;
+}
+.johns {
+    display: flex;
+    align-items: center;
+}
+.text2 {
+    color: #757575;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    width: 270px;
+    height: 368px;
+    margin: 0;
+    background-color: #FFFFFF;
+}
+.johns{
+    display: flex;
+    justify-content: space-between;
+}
+.john-figcaption {
+    margin: 30px auto;
+}
+.standing {
+    margin-top: 10px;
+}
+.team-member img {
+    margin: 0;
+    padding: 0;
+    display: inline;
+    justify-content: flex-start;
+}
+.text2 .team-member {
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+}
+.team {
+    background-color: #F5F4FA;
+}
+.accent {
+    color: #212121;
+    font-weight: 500;
+}
+.footer {
+    background-color: #2F303A;
+    color: #FFFFFF;
+}
+.footer [href="/index.html"] {
+    color: inherit;
+}
+.footer .container {
+    padding: 60px 0;
+}
+address {
+    font-style: normal;
+}
+.footer-address:not(:last-child) {
+    margin-bottom: 9px;
+}
+footer .logo {
+    margin-bottom: 20px;
+}
+address .contact {
+    color: rgba(255,255,255,0.6);
+}
+
+    /* PORTFOLIO */
+
+.button2 {
+    font-family: 'Roboto', 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63;
+    text-align: center;
+    background-color: #F5F4FA;
+    border-radius: 4px;
+    height: 38px;
+    padding: 6px 22px;
+    border: 0;
+}
+.button2:hover,
+.button2:focus {
+    background-color: #2196F3;
+    color: #FFFFFF;
+    cursor: pointer;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+.portfolio-section {
+    margin: 94px auto;
+}
+.container .button-list {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+.portfolio-buttons {
+    margin-bottom: 50px;
+}
+.button3:not(:last-child) {
+    margin-right: 8px;
+}
+.text3 {
+    color: #757575;
+    font-size: 16px;
+    line-height: 1.88;
+    border: 1px solid #EEEEEE;
+    width: 370px;
+    height: 404px;
+}
+.text3 .text3-portfolio {
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+}
+.text3 figcaption {
+    margin: 20px auto;
+}
+.text3 h3,
+.text3 .portfolio-description {
+    margin: 0 auto;
+}
+.text3 h3 {
+    font-weight: 700;
+    color: #212121;
+    font-size: 18px;
+    line-height: 2;
+    width: 322px;
+    height: 36px;
+}
+.text3 .portfolio-description {
+    width: 322px;
+    height: 30px;
+}
+.container .portfolio-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.container .text3 {
+    margin-bottom: 30px;
+}
