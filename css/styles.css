@@ -177,10 +177,10 @@ header {
 }
 .lorem-icon {
     background-color: #F5F4FA;
+    padding: 25px 102px;
+    margin-bottom: 30px;
 }
-.lorem-icon .use {
-    padding: 25px auto;
-}
+
 .text1>.text1-title {
     font-weight: 700;
     color: #212121;
@@ -230,10 +230,6 @@ h2 {
 .team-title {
     margin-bottom: 50px;
 }
-.johns {
-    display: flex;
-    align-items: center;
-}
 .text2 {
     color: #757575;
     font-size: 16px;
@@ -241,7 +237,7 @@ h2 {
     text-align: center;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     width: 270px;
-    height: 368px;
+    height: auto;
     margin: 0;
     background-color: #FFFFFF;
 }
@@ -278,6 +274,15 @@ h2 {
     background-color: #2F303A;
     color: #FFFFFF;
 }
+.social-links {
+    margin: 0px auto 0px auto;
+    width: 206px;
+    height: 44px;
+    display: flex;
+    justify-content: space-between;
+    fill: #AFB1B8;
+}
+/* FOOTER */
 .footer [href="/index.html"] {
     color: inherit;
 }
