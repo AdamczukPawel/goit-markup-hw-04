@@ -127,13 +127,17 @@ header {
     text-align: center;
     margin: 0 auto;
 }
+.hero {
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(/images/background1.jpg);
+        background-repeat: no-repeat;
+        background-position: 50% 50%;
+        height: 600px;
+        max-width: 1600px;
+        margin: 0 auto;
+}
 .advert {
     display: block;
-    height: 600px;
     justify-content: center;
-    background-image: url(/images/background1.jpg);
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
 }
 .advert.container  {
     padding-top: 200px;
@@ -270,21 +274,66 @@ h2 {
     color: #212121;
     font-weight: 500;
 }
-.footer {
-    background-color: #2F303A;
-    color: #FFFFFF;
-}
+
 .social-links {
     margin: 0px auto 0px auto;
     width: 206px;
     height: 44px;
     display: flex;
     justify-content: space-between;
+}
+.social-links-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-color: #FFFFFF;
     fill: #AFB1B8;
+}
+.social-links-icon:hover {
+    background-color: #2196F3;
+    fill: #FFFFFF;
+}
+/* CLIENTS */
+.clients-list {
+    display: flex;
+    align-content: space-between;
+    margin: 0 15px 94px 15px;    
+}
+.client {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-self: center; 
+    width: 170px;
+    height: 92px;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+    border-color: #AFB1B8;
+    fill: #AFB1B8;
+}
+.client-logo {
+    display: flex;
+    align-content: center;
+    width: 106px;
+}
+.client:not(:last-child) {
+    margin-right: 30px;
+}
+.client:hover {
+    fill: #2196F3;
+    border-color: #2196F3;
+    cursor: pointer;
 }
 /* FOOTER */
 .footer [href="/index.html"] {
     color: inherit;
+}
+.footer {
+    background-color: #2F303A;
+    color: #FFFFFF;
 }
 .footer .container {
     padding: 60px 0;
@@ -301,7 +350,37 @@ footer .logo {
 address .contact {
     color: rgba(255,255,255,0.6);
 }
+h5 {
+    font-family: Roboto;
+    font-weight: 700;
+}
+.social-footer {
+    margin-left: 70px;
+}
+.social-footer-links {
+    width: 206px;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+}
 
+.social-footer-links-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.1);;
+    fill: #FFFFFF;
+}
+.social-footer-links-icon:hover {
+    background-color: #2196F3;
+    fill: #FFFFFF;
+}
+.footer-container {
+    display: flex;
+}
     /* PORTFOLIO */
 
 .button2 {
@@ -344,6 +423,12 @@ address .contact {
     border: 1px solid #EEEEEE;
     width: 370px;
     height: 404px;
+}
+.text3:hover {
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12),
+        0px 4px 4px rgba(0, 0, 0, 0.06),
+        1px 4px 6px rgba(0, 0, 0, 0.16);
+    cursor: pointer;
 }
 .text3 .text3-portfolio {
     margin-block-start: 0;
