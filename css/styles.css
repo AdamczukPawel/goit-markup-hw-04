@@ -180,17 +180,20 @@ header {
     color: #757575;
 }
 .lorem-icon {
-    background-color: #F5F4FA;
-    padding: 25px 102px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
     margin-bottom: 30px;
+    border-radius: 4px;
+    background-color: #F5F4FA;
 }
-
 .text1>.text1-title {
     font-weight: 700;
     color: #212121;
     margin-bottom: 10px;
 }
-.container .list1 {
+.list1 {
     display: flex;
     justify-content: space-between;
     margin: 94px auto;
@@ -201,7 +204,6 @@ header {
 .container .text1:not(:last-child) {
     margin-right: 30px;
 }
-
 /* WHAT ARE WE DOING */
 h2 {
     font-weight: 700;
